@@ -1,0 +1,5 @@
+//On line 37 of the index.php file add 'muted' after 'autoplay' to play all videos without sound
+	echo '<video id="vid" class="videoDisplay" autoplay muted>
+  <source src="images/'.$fileName.'" type="video/mp4">
+  Your browser does not support the video tag.
+</video>';
